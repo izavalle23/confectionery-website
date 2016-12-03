@@ -1,0 +1,289 @@
+html{
+  box-sizing: border-box;
+  padding: 0;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+body{
+font-family: 'Lato', sans-serif;
+margin: 0;
+width: 100%;
+}
+header{
+  margin: 0 auto;
+  background-color: #321c16;
+  position: fixed;
+  width: 100%;
+  text-align: center;
+}
+.nav{
+  display: none;
+}
+.nav-check:checked ~ .nav{
+  display: block;
+}
+.nav-check{
+  position: absolute;
+  top: -3em;
+
+}
+.nav-label{
+  cursor: pointer;
+  font-size: 1.25rem;
+  display: inline-block;
+  width: 80px;
+  float: left;
+}
+.nav-label img{
+  display: block;
+  width: 100%;
+}
+nav ul {
+  width: 100%;
+  list-style-type: none;
+  margin: 0;
+  clear: left;
+  padding: 0;
+}
+
+nav li {
+  display: block;
+  padding: 0;
+  width: 30%;
+  width: 50%;
+  float: left;
+  padding: 3px;
+}
+nav a{
+  display: block;
+  color: #004056;
+  text-decoration: none;
+  border: 1.5px solid;
+  border-radius: 5px;
+  border-color: white;
+  background-color: #99d5ce;
+  padding: 0.50em;
+  margin: 3px;
+  margin-bottom: 3px;
+  text-align: center;
+
+}
+a:hover{
+  background-color: #f6a7b5;
+}
+.toplogo{
+  position: absolute;
+  transform: translateX(-50%);
+  left: 50%;
+  width: 110px;
+  text-align: center;
+  margin: 0 auto;
+}
+.headertext{
+  margin-top: 0px;
+  color: #ba7a35;
+}
+.title{
+  background-color: #4d342b;
+  margin: 0 auto;
+  overflow: hidden;
+  padding-top: 115px;
+}
+
+h1{
+  text-align: center;
+  margin: 0;
+  font-size: 3rem;
+  color: #f6d6a7;
+}
+h2{
+  text-align: center;
+  padding: 9px;
+  color: #321c16;
+  font-size: 2rem;
+  margin-bottom: -13px;
+}
+h3{
+  font-weight: 300;
+  color: #ba7a35;
+  text-align: center;
+  padding: 5px;
+  margin: -3px 90px 20px 90px;
+}
+h4{
+  color: #004056;
+  margin: 0;
+  text-align: center;
+}
+p{
+  color: #50151a;
+  margin:0;
+  font-weight: 300;
+  font-size: 1em;
+  margin: 40px;
+}
+.featurephoto{
+  width: 100%;
+  margin-bottom: -3px;
+}
+.menu{
+  background-color: #af752a;
+  overflow: hidden;
+}
+.bluetext{
+  color: #321c16;
+}
+figure{
+  width: 100%;
+  margin: 0;
+}
+figcaption{
+  clear: left;
+}
+
+/*These are menu photos*/
+
+.menutext{
+  margin: 15px;
+  color: #004056;
+}
+
+.coffee{
+  width: 100%;
+}
+.coffeediv{
+  width: 50%;
+  float: left;
+  background-color: white;
+}
+.white{
+  width: 100%;
+}
+.Whitediv{
+  width: 50%;
+  float: right;
+  background-color: white;
+}
+.Dark{
+  width: 100%;
+}
+.Darkdiv{
+  width: 50%;
+  float: left;
+  clear: both;
+  background-color: white;
+}
+.NoSugar{
+  width: 100%;
+}
+.NoSugar{
+  width: 50%;
+  float: right;
+  background-color: white;
+}
+.about{
+  overflow: hidden;
+  margin-top: 0px;
+  background-color: #af752a;
+}
+.abouth2{
+  margin-bottom: 23px;
+  color: #321c16;
+}
+.flavours{
+  width: 100%;
+  margin: 0;
+}
+
+.news{
+  background-color: #af752a;
+  margin-top: 0;
+}
+.newsh2{
+  margin-top: 15px;
+}
+.musicnote{
+  background-image: url("../images/calendaricons.svg");
+  background-position: -1px;
+  padding: 1px 49px 1px 54px;
+  background-size: 92px auto;
+  background-repeat: no-repeat;
+}
+.trophy{
+  background-image: url("../images/calendaricons2.svg");
+  background-position: -1px;
+  padding: 1px 49px 1px 54px;
+  background-size: 92px auto;
+  background-repeat: no-repeat;
+  margin-bottom: 45px;
+}
+
+.calendar1{
+  width: 110px;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+.calendar{
+  width: 110px;
+  padding: 10px;
+}
+
+.contact{
+  overflow: hidden;
+  background-color: white;
+  text-align: center;
+}
+
+.contactinfo{
+  margin: 20px;
+}
+.hours{
+  margin: 20px;
+  padding-bottom: 10px;
+}
+.address{
+  margin: 1px;
+}
+.postalcode{
+  padding: 0px 0px 30px 0px;
+  margin: 0;
+}
+.contacttitle{
+  color: #004056;
+  margin: 0;
+  padding: 10px;
+}
+
+.contactinfo{
+  text-align: center;
+}
+.map{
+  width: 100%;
+  margin-bottom: -4px;
+}
+
+.footer{
+  background-color: #af752a;
+  width: 100%;
+  float: left;
+  text-align: center;
+}
+.bottomlogo {
+  width: 15%;
+  float: right;
+}
+.footertext{
+  color: white;
+  margin: 20px;
+}
+.arrow{
+  width: 30%;
+}
+
+.icons{
+width: 13%;
+margin: -5px 0px -9px 0px
+}
