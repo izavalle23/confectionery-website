@@ -68,6 +68,76 @@ nav li{
   margin-bottom: -3px;
 }
 
+.menu{
+  background-color: #99d5ce;
+  overflow: hidden;
+}
+.bluetext{
+  color: #004056;
+}
+figure{
+  width: 100%;
+  margin: 0;
+}
+figcaption{
+  clear: left;
+}
+
+.about{
+  overflow: hidden;
+  margin-top: 0px;
+  color: #46221d;
+}
+.abouth2{
+  margin-bottom: 5px;
+  color: ;
+}
+.flavours{
+  width: 100%;
+  margin: 0;
+}
+
+.news{
+  background-color: #af752a;
+  margin-top: 0;
+}
+.newsh2{
+  margin-top: 15px;
+}
+
+.contact{
+  overflow: hidden;
+  background-color: #af752a;
+  text-align: center;
+}
+
+.contactinfo{
+  margin: 20px;
+}
+.hours{
+  margin: 20px;
+  padding-bottom: 10px;
+}
+.address{
+  margin: 1px;
+}
+.postalcode{
+  padding: 0px 0px 30px 0px;
+  margin: 0;
+}
+.contacttitle{
+  color: #004056;
+  margin: 0;
+  padding: 10px;
+}
+
+.contactinfo{
+  text-align: center;
+}
+.map{
+  width: 100%;
+  margin-bottom: -4px;
+}
 .button li{
   width: 100%;
   max-width: 100px;
@@ -83,7 +153,7 @@ nav li{
 
 }
 .button a:hover, .button a.active{
-  background-color: #f69a72;
+  background-color: #af752a;
   color: #fff;
 }
 .herobutton a{
@@ -161,31 +231,11 @@ nav li{
   text-align: left;
 }
 
-
-main{
-  background-color: #e34445;
-}
 p,li{
-  color: white;
+  color: #46221d;
 }
 h3{
   color: #f69a72;
-}
-.icon{
-  background: url("../images/peach.png");
-  background-size: 140px auto;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-clip: border-box;
-}
-.icon2{
-  background: url("../images/tomato.png");
-  background-size: 140px auto;
-  background-repeat: no-repeat;
-  background-position: center;
-}
-.bucket{
-  color: white;
 }
 
 footer{
@@ -200,7 +250,7 @@ input + label{
 }
 
 .iconimg{
-  width: 90px;
+  width: 100px;
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -213,36 +263,6 @@ legend{
   color:#e34445;
 }
 
-
-.peach{
-  background-image: url("../images/peach.png");
-  background-size: 80px auto;
-  background-repeat: no-repeat;
-  background-position: center 1em;
-  padding: 5em 1em 1em 1em;
-  text-align: center;
-  clear: both;
-}
-
-.tomato{
-  background-image: url("../images/tomato.png");
-  background-size: 80px auto;
-  background-repeat: no-repeat;
-  background-position: center 1em;
-  padding: 5em 1em 1em 1em;
-  text-align: center;
-  clear: both;
-}
-
-.bean{
-  background-image: url("../images/bean.png");
-  background-size: 80px auto;
-  background-repeat: no-repeat;
-  background-position: center 1em;
-  padding: 5em 1em 1em 1em;
-  text-align: center;
-  clear: both;
-}
 
 @media only screen and (min-width: 15em){
   .hero{
