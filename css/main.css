@@ -22,7 +22,7 @@ body{
 }
 
 header{
-  background-color: white;
+  background-color: #46221d;
 }
 .logo{
   width: 80px;
@@ -63,6 +63,11 @@ nav li{
   display: inline;
 }
 
+.featurephoto{
+  width: 100%;
+  margin-bottom: -3px;
+}
+
 .button li{
   width: 100%;
   max-width: 100px;
@@ -73,7 +78,7 @@ nav li{
   border: 1.5px solid;
   border-radius: 10px;
   border-color: white;
-  background-color: #e34445;
+  background-color: #46221d;
   text-align: center;
 
 }
@@ -83,21 +88,20 @@ nav li{
 }
 .herobutton a{
   width: 200px;
-  background-color: white;
-  color: #e34445;
+  background-color: #46221d;
+  color: #fff;
   border-radius: 10px;
 }
 .herobutton a:hover{
-  background-color: white;
-  color: #a1ae56;
+  background-color: #46221d;
+  color: #af752a;
 }
 .hero{
   max-height: 75vh;
   position: relative;
   overflow: hidden;
-  background: url("../images/herobanner.jpg") no-repeat center top / cover;
   padding-top: 220%;
-  background-color: darkgrey;
+  background-color: #cc9644;
 }
 .hero-content{
   padding: 0 1rem;
