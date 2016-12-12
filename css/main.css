@@ -169,6 +169,17 @@ figcaption {
 
 }
 
+.btn {
+  border: 0;
+  background-color: #af752a;
+  margin: 0;
+}
+
+.card:hover .btn {
+  background-color: #46221d;
+  color: #fff;
+}
+
 .herobutton a {
   width: 200px;
   background-color: #46221d;
@@ -258,7 +269,7 @@ figcaption {
 }
 
 h3 {
-  color: #f69a72;
+  color: #432a2a;
 }
 
 footer {
