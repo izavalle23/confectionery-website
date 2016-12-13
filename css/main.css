@@ -19,6 +19,7 @@ html {
 
 body {
   font-family: "Open Sans Condensed", sans-serif;
+  background-color: #af752a;
 }
 
 header {
@@ -133,6 +134,10 @@ figcaption {
   margin: 20px;
 }
 
+h1 {
+  color: #fff;
+}
+
 .hours {
   margin: 20px;
   padding-bottom: 10px;
@@ -171,7 +176,7 @@ figcaption {
 
 .btn {
   border: 0;
-  background-color: #af752a;
+  background-color: #46221d;
   margin: 0;
 }
 
@@ -269,7 +274,7 @@ figcaption {
 }
 
 h3 {
-  color: #432a2a;
+  color: #fff;
 }
 
 footer {
@@ -293,12 +298,12 @@ input + label {
 }
 
 fieldset {
-  border-color: #f69a72;
-  background-color: white;
+  border-color: #432a2a;
+  background-color: #af752a;
 }
 
 legend {
-  color: #e34445;
+  color: #46221d;
 }
 
 @media only screen and (min-width: 15em) {
